@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+.map {
+  margin: auto;
+  position: relative;
+  border: solid 3px #000;
+  height: 90vh;
+  width: 90vw;
+}
+
+.snake {
+  height: 10px;
+  width: 10px;
+  background-color: crimson;
+}
