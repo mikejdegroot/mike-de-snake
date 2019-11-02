@@ -15,14 +15,16 @@ code {
 
 .map {
   margin: auto;
-  position: relative;
+  /* position: relative; */
   border: solid 3px #000;
   height: 90vh;
   width: 90vw;
 }
 
 .snake {
-  height: 10px;
-  width: 10px;
-  background-color: crimson;
+  /* position: absolute; */
+  height: 100px;
+  width: 100px;
+  float: left;
+  border: 1px solid green;
 }
